@@ -6,4 +6,4 @@
 
 ## Welcome to my SQL Portfolio! This code repository contains examples of SQL I have written.  Please take a look and reach out if you have any questions.
 
-*This is an ongoing portfolio is and being updated all the time*
+*This is an ongoing portfolio and is and being updated all the time.*
