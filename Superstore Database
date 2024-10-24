@@ -35,17 +35,17 @@ price
 FROM superstore
 ORDER BY price desc
 ;
--- Run a querry to stastic sum by item name
+-- Run a querry to find statistic for sum by item name
 SELECT SUM(price), item_name
 FROM superstore
 GROUP BY item_name
 ;
 -- Run querry to statistic for price of items in category Kitchen Supplies
 SELECT SUM(price), category 
-FROM superstore
+FROM superstorefind 
 WHERE category="Kitchen Supplies"
 ;
--- Run querry to aggregate average rating of all electronics
+-- Run querry to aggregate the average rating of all electronics
 SELECT AVG(average_rating), category
 FROM superstore
 WHERE category="Electronics"
